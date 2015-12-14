@@ -1,0 +1,14 @@
+# Site settings
+title: Middle Girl Documentation
+email: qhe@heyook.com
+description: > # Documentation for (MiddleGirl Application)[dashboard.middlegirl.co].
+  MiddleGirl is an easy site building tool for dummies.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://docs.middlegirl.co" # the base hostname & protocol for your site
+twitter_username: heroxlabs
+github_username:  heroxlabs
+
+# Build settings
+markdown:         redcarpet
+redcarpet:
+  extensions:     ['tables', 'fenced_code_blocks']

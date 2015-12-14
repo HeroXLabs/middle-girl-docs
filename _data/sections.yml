@@ -1,0 +1,45 @@
+- name: about
+  description: About section, includes image title and subtitle
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/about.jpeg
+- name: about_2
+  description: Two-column about section with images and titles
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/about_2.jpeg
+- name: about_cols
+  description: Multi-column about section with images and titles
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/about_cols.jpeg
+- name: contact
+  description: Contact section, can hide reservation form
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/contact.jpeg
+- name: home_intro
+  description: Home page with transparent navbar background and scrolling bg images
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/home_intro.jpeg
+- name: home_start
+  description: Home page with single background image and shrinkable when scroll
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/home_start.jpeg
+- name: foodster_intro
+  description: Home page with navbar underneath home pics
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/foodster_intro.jpeg
+- name: top_navs
+  description: Navigation bar on the top
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/top_navs.jpeg
+- name: footer
+  description: Footer on the bottom
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/footer.jpg
+- name: map
+  description: Google Map
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/map.jpeg
+- name: work_gallery
+  description: Items list that has categories to filter, and has popup for each item
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/work_gallery.jpeg
+- name: menu_gallery
+  description: Items list that can popup individual items with text and images
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/menu_gallery.jpeg
+- name: multi_galleries
+  description: Items list that mostly shows images and can have scrolling images on each item
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/multi_galleries.jpeg
+- name: one_col
+  description: One column paragraph
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/one_col.jpeg
+- name: two_col
+  description: Two columns paragraphs
+  image_url: https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/two_col.jpeg

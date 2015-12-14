@@ -1,0 +1,89 @@
+$sidebar-width: 200px;
+$sidebar-bg-color: $gray-dark;
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+  background: $sidebar-bg-color;
+  width: $sidebar-width;
+  .sidebar-nav {
+    width: $sidebar-width;
+    li {
+      text-indent: 20px;
+      line-height: 40px;
+      font-size: 1.0em;
+      i.fa {
+        width: 40px;
+        text-align: center;
+      }
+      a > span {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.sidebar-nav {
+  position: absolute;
+  width: $sidebar-width;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    text-indent: 10px;
+    line-height: 50px;
+    font-size: 1.3em;
+    a {
+      display: block;
+      text-decoration: none;
+      color: $gray-lighter;
+      letter-spacing: 1px;
+      position: relative;
+      &:hover {
+        text-decoration: none;
+        color: $white;
+        background: rgba(255, 255, 255, 0.2);
+      }
+      &:active, &:focus, &.active, &.focus {
+        text-decoration: none;
+        background: rgba(55, 55, 55, 0.2);
+      }
+      i.fa {
+        width: 40px;
+        text-align: center;
+      }
+      span {
+        position: absolute;
+        top: 0;
+        left: 60px;
+        visibility: hidden;
+      }
+    }
+    &.bottom {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+  > .sidebar-brand {
+    border-bottom: 1px solid $gray-semi-dark;
+    background-color: $gray-darker;
+    padding-top: 5px;
+    margin-top: -5px;
+    box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+    > .logo {
+      margin: 5px;
+      background: url("../images/logo-text.png") no-repeat;
+      background-size: auto 100%;
+      height: 50px;
+    }
+  }
+}
+
+#page-content-wrapper {
+  padding-left: 200px;
+}
