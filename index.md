@@ -1,7 +1,5 @@
 ---
-layout: default
-title: Components
-permalink: /components/
+layout: docs
 ---
 
 {% include components.md %}

@@ -1,6 +1,6 @@
 # Site settings
 title: Middle Girl Documentation
-email: qhe@heyook.com
+email: support@middlegirl.co
 description: > # Documentation for (MiddleGirl Application)[dashboard.middlegirl.co].
   MiddleGirl is an easy site building tool for dummies.
 baseurl: "" # the subpath of your site, e.g. /blog/

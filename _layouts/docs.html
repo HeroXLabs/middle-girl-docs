@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div id="app-wrapper">
+      <div id='sidebar-wrapper' class='side-nav'>
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a class='logo' href="">
+            </a>
+          </li>
+          <li>
+            <a href="#introduction">
+              Introduction
+            </a>
+          </li>
+        {% for section in site.data.sections %}
+          <li>
+            <a href="#{{section.name}}">
+              {{ section.name }}
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div id="page-content-wrapper">
+        {% include header.html %}
+
+        <div class="page-content">
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+      </div>
+    </div>
+
+  </body>
+
+</html>
