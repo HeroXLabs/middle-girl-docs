@@ -23,6 +23,24 @@ The contact form contains
 
 Each field contains `input_type`(should not change), label, name, placeholder, `input_icon_class`(usually it's font-awesome icon), and a boolean hide to hide or show the input field.
 
+Fields can have the following input types:
+
+* Text (`text_input`), ususally for name, email, phone, etc.
+* Selections (`selections_input`), for select different services or types for appointment.
+* Two Inputs (`text_inputs_2`), which has two inputs on the same line, is usually used for start/end date for appointment.
+* Textarea (`textarea`), used for details, or multi-line content.
+
+**Date Input**: setting the input class(`input_class`) to `x-datepicker datepicker` will
+make the input has the ability to popup calendar to select a date.
+
+**Contact Form Fields**: usually a contact/reservation form has the following inputs:
+
+* Email
+* Phone
+* Name
+* Appointment Date/Time
+* Detail/Note
+
 ```json
 {
   "title": "Reservation",
