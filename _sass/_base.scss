@@ -127,7 +127,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: 0.85em;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
@@ -201,4 +201,13 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+/**
+ * Main page content
+ */
+.page-content {
+  h3 {
+    padding: 30px 0;
+  }
 }

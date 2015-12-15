@@ -1,4 +1,4 @@
-### Components
+<h3 id='introduction'>Introduction</h3>
 
 | Component  | Description  |   | Preview  |   |
 |---|---|---|---|---|

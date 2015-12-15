@@ -10,5 +10,6 @@ github_username:  heroxlabs
 
 # Build settings
 markdown:         redcarpet
+highlighter:      pygments
 redcarpet:
-  extensions:     ['tables', 'fenced_code_blocks']
+  extensions:     ['tables', "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
