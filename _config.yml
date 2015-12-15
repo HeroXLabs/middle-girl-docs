@@ -4,6 +4,7 @@ email: support@middlegirl.co
 description: > # Documentation for (MiddleGirl Application)[dashboard.middlegirl.co].
   MiddleGirl is an easy site building tool for dummies.
 baseurl: "" # the subpath of your site, e.g. /blog/
+section_image_root: "https://middlegirlcdn.s3-us-west-2.amazonaws.com/images/"
 url: "http://docs.middlegirl.co" # the base hostname & protocol for your site
 twitter_username: heroxlabs
 github_username:  heroxlabs

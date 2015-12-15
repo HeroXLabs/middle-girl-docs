@@ -1,4 +1,5 @@
 <h3 id='about_2'>About 2</h3>
+![]({{site.section_image_root}}about_2.jpeg)
 
 This section contains:
 
